@@ -16,17 +16,23 @@ Requires NPM and node<br/>
 `npm install`<br/>
 
 ## Commands to run
-The following testing cases run in a terminal and belong to solution.js:<br/>
+Format `node -e 'require(<solutionFileName>).<functionName>'`</br>
+
+##### Examples
+The following examples are for first solution<br/>
 `node -e 'require("./solution.js").findCompaniesByLocation("MD")'`<br/>
 `node -e 'require("./solution.js").findCompaniesBeforeYear(1950)'`<br/>
 `node -e 'require("./solution.js").findCompaniesAfterYear(1950)'`<br/>
 `node -e 'require("./solution.js").findCompaniesBySize("1-10")'`<br/>
 `node -e 'require("./solution.js").findCompaniesByCategory("Data/Technology")'`<br/>
 
-The following testing cases run in a terminal and belong to solution2.js: <br/>
+The following examples are for solution2.js: <br/>
 `node -e 'require("./solution2.js").findCompaniesByLocation("MD")'`<br/>
 `node -e 'require("./solution2.js").findCompaniesBeforeYear(1950)'`<br/>
 `node -e 'require("./solution2.js").findCompaniesAfterYear(1950)'`<br/>
 `node -e 'require("./solution2.js").findCompaniesBySize("1-10")'`<br/>
 `node -e 'require("./solution2.js").findCompaniesByCategory("Data/Technology")'`<br/>
 
+## Testing
+Added unit tests in test.js and can be run by calling below command </br>
+`node test.js`
