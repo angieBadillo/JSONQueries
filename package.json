@@ -1,0 +1,12 @@
+{
+  "name": "bainapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "lokijs": "^1.5.5"
+  }
+}
