@@ -43,3 +43,5 @@ assert.equal(solution1.find(testInput, solution1.lessThanFilter, 'column3', "NA"
 assert.equal(solution1.find(testInput, solution1.lessThanFilter, 'column3', null).length, 0);
 assert.equal(solution1.find(testInput, solution1.greaterThanFilter, 'column3', "NA").length, 0);
 assert.equal(solution1.find(testInput, solution1.greaterThanFilter, 'column3', null).length, 0);
+
+console.log("All Test cases passed");
